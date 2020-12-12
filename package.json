@@ -13,6 +13,13 @@
     "test": "umi-test",
     "test:coverage": "umi-test --coverage"
   },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": [
+    ".css",
+    ".less"
+  ],
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "typings": "dist/index.d.ts",
