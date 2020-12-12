@@ -17,6 +17,8 @@
     "dist"
   ],
   "sideEffects": [
+    "dist/**/style/**",
+    "src/**/style/**",
     ".css",
     ".less"
   ],
